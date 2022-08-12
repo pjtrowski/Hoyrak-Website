@@ -1,11 +1,14 @@
 import * as React from "react"
 import { motion } from "framer-motion"
 import { GlobalStyle } from "./styles/GlobalStyles"
-import Footer from "./Footer/Footer";
+import Footer from "./Footer/Footer"
+import Header from "./Header/Header"
+import About from "./About/About"
 
 const Layout = ({ children }) => {
     return (
         <>
+       
             <GlobalStyle />
             <motion.div
                 initial={{ opacity: 0 }}
@@ -13,8 +16,9 @@ const Layout = ({ children }) => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.75 }}
             >
-                <div className='body'>HELLO WORLD</div>
-                <Footer/>
+                 <Header/>
+                 <About/>
+                 <Footer/>
             </motion.div>
         </>
     )
