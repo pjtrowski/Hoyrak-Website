@@ -4,6 +4,7 @@ import { GlobalStyle } from "./styles/GlobalStyles"
 import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
 import About from "./About/About"
+import OurWork from "./OurWork/Ourwork"
 
 const Layout = ({ children }) => {
     return (
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
             >
                  <Header/>
                  <About/>
+                 <OurWork/>
                  <Footer/>
             </motion.div>
         </>
