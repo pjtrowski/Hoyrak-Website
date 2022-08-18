@@ -4,11 +4,11 @@ import {OurWorkStyle} from "./OurWorkStyle"
 const OurWork=()=>
 {
    return (
-    <AboutStyle>
+    <OurWorkStyle               >
         <div className="container">
         <p>THIS is OUR WORK</p>
         </div>
-    </AboutStyle>
+    </OurWorkStyle>
    )
 
 }
