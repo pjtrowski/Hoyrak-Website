@@ -5,7 +5,7 @@ import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
 import About from "./About/About"
 import OurWork from "./OurWork/Ourwork"
-import NavModule from "./NavModule/NavModule"
+
 
 const Layout = ({ children }) => {
     return (
@@ -18,7 +18,6 @@ const Layout = ({ children }) => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.75 }}
             >
-                <NavModule/>
                  <Header/>
                  <About/>
                  <OurWork/>
