@@ -1,7 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-//import MobileNav from "../Menu/Menu"
 import Menu from "../Menu/Menu"
 
 const Header = ({ siteTitle }) => (
@@ -11,7 +10,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-  <Menu></Menu>
+  <Menu/>
 
     <div
       style={{

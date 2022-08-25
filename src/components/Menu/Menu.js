@@ -32,7 +32,7 @@ var styles = {
       height: '100%'
     },
     bmMenu: {
-      background: 'rebeccapurple',
+      background: 'rebecapurple',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em'
     },
@@ -61,6 +61,7 @@ class Menu extends React.Component {
       <MenuStyle class="mobileNav" right styles={ styles }>
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about/">About</a>
+        <a id="contact" className="menu-item" href="/ourworr/">OurWork</a>
         <a id="contact" className="menu-item" href="/contact/">Contact</a>
       </MenuStyle>
     );
