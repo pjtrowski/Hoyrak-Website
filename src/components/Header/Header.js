@@ -2,16 +2,17 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Menu from "../Menu/Menu"
+import { HeaderStyle } from "./HeaderStyle"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+const Header=({siteTitle})=>{
+  return(
+    <HeaderStyle>
+    <header className="container">
+    <div>
+    <a aria-current="page" className="hoyrak_name" >HOYRAK<span>.</span></a>
+    </div>
+
   <Menu/>
-
     <div
       style={{
         margin: `0 auto`,
@@ -32,14 +33,8 @@ const Header = ({ siteTitle }) => (
       </h1>
     </div>
   </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+  </HeaderStyle>
+  )
 }
 
 export default Header

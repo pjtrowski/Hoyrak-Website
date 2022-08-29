@@ -5,6 +5,7 @@ import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
 import About from "./About/About"
 import OurWork from "./OurWork/Ourwork"
+import WelcomeBanner from "./WelcomeBanner/WelcomeBanner"
 
 
 const Layout = ({ children }) => {
@@ -19,6 +20,7 @@ const Layout = ({ children }) => {
                 transition={{ duration: 0.75 }}
             >
                  <Header/>
+                 <WelcomeBanner/>
                  <About/>
                  <OurWork/>
                  <Footer/>

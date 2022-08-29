@@ -1,6 +1,5 @@
 import { slide as MenuStyle } from 'react-burger-menu'
 import * as React from "react"
-//import { MenuStyle } from './MenuStyle';
 
 var styles = {
     bmBurgerButton: {
@@ -8,7 +7,9 @@ var styles = {
       width: '30px',
       height: '24px',
       right: '36px',
-      top: '16px'
+      top: '16px',
+      margin: '25px',
+    
     },
     bmBurgerBars: {
       background: '#f8f8f8',
@@ -32,7 +33,7 @@ var styles = {
       height: '100%'
     },
     bmMenu: {
-      background: 'rebecapurple',
+      background: 'black',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em'
     },

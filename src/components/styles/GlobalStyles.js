@@ -74,9 +74,8 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
 
-
   body {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Secular One', sans-serif;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
