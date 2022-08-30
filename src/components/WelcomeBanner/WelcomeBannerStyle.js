@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-export const BannerModuleStyles = styled.section`
+export const WelcomeBannerStyle = styled.section`
   height: 100vh;
   position: relative;
   padding: 30px var(--borderSpacing);
@@ -67,4 +67,11 @@ export const BannerModuleStyles = styled.section`
     display: flex;
     gap: var(--gap);
   }
+  .banner_image{
+    opacity:05;
+    box-shadow: -2px -1px 62px 22px rgba(0,0,0,0.77) inset;
+  -webkit-box-shadow: -2px -1px 62px 22px rgba(0,0,0,0.77) inset;
+  -moz-box-shadow: -2px -1px 62px 22px rgba(0,0,0,0.77) inset;
+  }
+ 
 `

@@ -24,8 +24,7 @@ const Header=({siteTitle})=>{
         <Link
           to="/"
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            color: `white`
           }}
         >
           {siteTitle}
@@ -35,6 +34,6 @@ const Header=({siteTitle})=>{
   </header>
   </HeaderStyle>
   )
-}
 
+}
 export default Header

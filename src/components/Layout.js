@@ -20,7 +20,10 @@ const Layout = ({ children }) => {
                 transition={{ duration: 0.75 }}
             >
                  <Header/>
-                 <WelcomeBanner/>
+                 <WelcomeBanner
+                 title={"Welcome to Hoyrak"}
+                 subTitle={"We are small desing studio from NY"}
+                 />
                  <About/>
                  <OurWork/>
                  <Footer/>

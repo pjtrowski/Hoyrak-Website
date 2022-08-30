@@ -12,18 +12,18 @@ const WelcomeBanner = ({ children, title, subTitle, price, enquire }) => {
   return (
     <>
       <WelcomeBannerStyle>
-        {children ? (
-          children
-        ) : (
           <StaticImage
             className="banner__image"
             imgClassName="banner__image--content"
-            src="../../../static/macbook-color.jpg"
+            src="C:\Users\pj.trowski\Documents\GitHub\Hoyrak-Website\src\images\hoyrak_welcome.jpg"
             alt="Banner Image"
             layout="fullWidth"
             placeholder="blurred"
+            style={{
+                opacity:0.3
+            }}
           />
-        )}
+       
 
         <div className="container">
           <div className="banner__content">
