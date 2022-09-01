@@ -67,11 +67,5 @@ export const WelcomeBannerStyle = styled.section`
     display: flex;
     gap: var(--gap);
   }
-  .banner_image{
-    opacity:05;
-    box-shadow: -2px -1px 62px 22px rgba(0,0,0,0.77) inset;
-  -webkit-box-shadow: -2px -1px 62px 22px rgba(0,0,0,0.77) inset;
-  -moz-box-shadow: -2px -1px 62px 22px rgba(0,0,0,0.77) inset;
-  }
  
 `

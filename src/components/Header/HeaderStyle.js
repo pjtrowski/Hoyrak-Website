@@ -5,7 +5,6 @@ export const HeaderStyle = styled.header`
   height:auto;
   padding: 20px;
   margin: 5px;
-
   marginBottom: 1.45rem;
 }
 .hoyrak_name

@@ -9,7 +9,7 @@ const Header=({siteTitle})=>{
     <HeaderStyle>
     <header className="container">
     <div>
-    <a aria-current="page" className="hoyrak_name" >HOYRAK<span>.</span></a>
+    <a aria-current="page" className="hoyrak_name" >HOYRAK<span style={{ color: "var(--primary)" }}>.</span></a>
     </div>
 
   <Menu/>

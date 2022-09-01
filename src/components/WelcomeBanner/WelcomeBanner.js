@@ -20,7 +20,7 @@ const WelcomeBanner = ({ children, title, subTitle, price, enquire }) => {
             layout="fullWidth"
             placeholder="blurred"
             style={{
-                opacity:0.3
+                opacity:0.3,
             }}
           />
        
@@ -49,7 +49,7 @@ const WelcomeBanner = ({ children, title, subTitle, price, enquire }) => {
                   to="/contact"
                 />
               )}
-              <Button onClick={scrollToArea} text="Learn More" />
+              <Button onClick={scrollToArea} text="Contact Us" />
             </div>
           </div>
         </div>

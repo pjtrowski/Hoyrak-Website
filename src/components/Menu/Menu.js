@@ -1,5 +1,7 @@
 import { slide as MenuStyle } from 'react-burger-menu'
 import * as React from "react"
+import {MenuLinks} from "./MenuLinks"
+import {Link} from "gatsby"
 
 var styles = {
     bmBurgerButton: {
@@ -53,17 +55,27 @@ var styles = {
       background: 'rgba(0, 0, 0, 0.3)'
     }
   }
-
+  const toggleNav = () => {
+    setNav((isOpen) => !isOpen)
+  }
 class Menu extends React.Component {
-
 
   render () {
     return (
       <MenuStyle class="mobileNav" right styles={ styles }>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about/">About</a>
-        <a id="contact" className="menu-item" href="/ourworr/">OurWork</a>
-        <a id="contact" className="menu-item" href="/contact/">Contact</a>
+    {MenuLinks.map((item, index) => (
+            <li key={index}>
+              <Link
+                onClick={toggleNav}
+                onKeyDown={toggleNav}
+                to={item.path}
+                activeClassName="menu__item--active"
+              >
+                {item.text}
+                <span>.</span>
+              </Link>
+            </li>
+          ))}
       </MenuStyle>
     );
   }
