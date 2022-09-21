@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --borderSpacing: 30px;
     --menuWidth: 100vw;
     --blockquote: 20px;
-    --background: #161616;
+    --background: #1e3256;
     --primary: #CC0000FF;
     --bodyColor: #afc2cb;
     --inActive: #555;

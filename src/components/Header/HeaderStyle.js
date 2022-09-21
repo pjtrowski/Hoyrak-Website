@@ -11,7 +11,7 @@ export const HeaderStyle = styled.header`
 {
 font-size: 3em;
 font-weight:600;
-position:fixed;
+position:absolute;
 color: rgb(255, 255, 255);
 text-decoration: none;
 transition: color 0.3s ease 0s;

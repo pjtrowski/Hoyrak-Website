@@ -6,6 +6,7 @@ import Header from "./Header/Header"
 import About from "./About/About"
 import OurWork from "./OurWork/Ourwork"
 import WelcomeBanner from "./WelcomeBanner/WelcomeBanner"
+import Services from "./Services/Services"
 
 
 const Layout = ({ children }) => {
@@ -24,8 +25,10 @@ const Layout = ({ children }) => {
                  title={"Welcome to Hoyrak"}
                  subTitle={"We are small desing studio from NY"}
                  />
+                 <Services/>
                  <About/>
                  <OurWork/>
+                 
                  <Footer/>
             </motion.div>
         </>
