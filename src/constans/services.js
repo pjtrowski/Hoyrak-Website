@@ -1,28 +1,28 @@
-const servicesList=
+export const servicesList=
 [
 {
-    serviceName1:"",
-    details1:"",
-    details2:"",
-    details3:"",
-    details4:"",
-    details5:"",
+    serviceName:"ABCDE",
+    details:"A",
+    details:"B",
+    details:"C",
+    details:"D",
+    details:"E",
 
 },
 {
-    serviceName2:"",
-    details1:"",
-    details2:"",
-    details3:"",
-    details4:"",
-    details5:"",
+    serviceName:"FDWQED",
+    details:"X",
+    details:"S",
+    details:"F",
+    details:"A",
+    details:"H",
 },
 {
-    serviceName3:"",
-    details1:"",
-    details2:"",
-    details3:"",
-    details4:"",
-    details5:"",
-}
+    serviceName:"AEDLRI",
+    details:"L",
+    details:"I",
+    details:"P",
+    details:"O",
+    details:"R",
+},
 ]

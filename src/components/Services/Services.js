@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Service from "../Services/Service"
 import { MdOutlineClose as Cross } from "react-icons/md"
 import { ServicesStyle } from "./ServicesStyle"
+import { servicesList } from "../../constans/services"
 
 const Services = () => {
   return (
@@ -10,45 +11,40 @@ const Services = () => {
     
       <div className="perks__image--overlay"></div>
       <div className="container container__tight">
-        <Service
-          title="Built For Speed"
-          content="By using GatsbyJS, the Barcadia site is super-fast out of the box"
-        >
-          <StaticImage
-            src="../../../static/logos/gatsby-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-        </Service>
+      
+              <Service
+              title="DEVELOPMENT"
+              content1="HTML5 applications"
+              content2="content management"
+              content3="e-commerce"
+              content4="user expirance"
+              content5="interactive design">
+  
+              </Service>
         <span className="perks__divider">
           <Cross/>
         </span>
         <Service
-          title="Built For Content"
-          content="Contentful helps you edit your application with ease as your business expands"
-        >
-          <StaticImage
-            src="../../../static/logos/contentful-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-        </Service>
+              title="DESIGN"
+              content1="digital branding"
+              content2="visual desing"
+              content3="copyrighting"
+              content4="marketing strategy"
+              content5="project developent">
+  
+              </Service>
         <span className="perks__divider">
           <Cross/>
         </span>
         <Service
-          title="Built For Content"
-          content="Contentful helps you edit your application with ease as your business expands"
-        >
-          <StaticImage
-            src="../../../static/logos/contentful-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-        </Service>
+              title="MARKETING"
+              content1="brand identetiy"
+              content2="ad desing and editiing"
+              content3="logo desing"
+              content4="social media"
+              content5="SEO">
+  
+              </Service>
         
       </div>
     </ServicesStyle>

@@ -49,7 +49,7 @@ export const ServicesStyle = styled.section`
     }
 
     @media (min-width: 1200px) {
-      gap: calc(var(--gap) * 4);
+      gap: calc(var(--gap) * 1.3);
     }
   }
 `

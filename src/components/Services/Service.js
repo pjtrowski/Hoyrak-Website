@@ -1,12 +1,16 @@
 import * as React from "react"
 import { ServiceStyle } from "./ServicesStyle"
 
-const Service = ({ children, title, content }) => {
+const Service = ({ title, content1,content2,content3,content4,content5 }) => {
   return (
     <ServiceStyle>
-      {children}
       {title && <h3>{title}</h3>}
-      {content && <p>{content}</p>}
+      {content1 && <p>{content1}</p>}
+      {content2 && <p>{content2}</p>}
+      {content3 && <p>{content3}</p>}
+      {content4 && <p>{content4}</p>}
+      {content5 && <p>{content5}</p>}
+     
     </ServiceStyle>
   )
 }
