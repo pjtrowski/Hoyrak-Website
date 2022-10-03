@@ -58,6 +58,15 @@ export const ServiceStyle = styled.aside`
   max-width: 275px;
   text-align: center;
 
+  border-radius: 11px 11px 11px 11px;
+-webkit-border-radius: 11px 11px 11px 11px;
+-moz-border-radius: 11px 11px 11px 11px;
+border: 3px solid #CC0000FF;
+box-shadow: 7px 7px 22px -9px rgba(255,255,255,0.33);
+-webkit-box-shadow: 7px 7px 22px -9px rgba(255,255,255,0.33);
+-moz-box-shadow: 7px 7px 22px -9px rgba(255,255,255,0.33);
+
+  
 
 
   @media (min-width: 414px) {

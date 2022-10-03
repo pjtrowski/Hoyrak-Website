@@ -1,9 +1,9 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Service from "../Services/Service"
-import { MdOutlineClose as Cross } from "react-icons/md"
+import { TbArrowsHorizontal as HoyrakLogo } from "react-icons/tb"
 import { ServicesStyle } from "./ServicesStyle"
-import { servicesList } from "../../constans/services"
+
 
 const Services = () => {
   return (
@@ -22,7 +22,7 @@ const Services = () => {
   
               </Service>
         <span className="perks__divider">
-          <Cross/>
+          <HoyrakLogo/>
         </span>
         <Service
               title="DESIGN"
@@ -34,7 +34,7 @@ const Services = () => {
   
               </Service>
         <span className="perks__divider">
-          <Cross/>
+          <HoyrakLogo/>
         </span>
         <Service
               title="MARKETING"
