@@ -50,7 +50,7 @@ export const GlobalStyle = createGlobalStyle`
       --h4: 26px;
       --h5: 24px;
       --h6: 22px;
-      --sectionMargin: 100px;
+      --sectionMargin: 70px;
     }
 
     @media (min-width: 1024px) {
@@ -61,7 +61,7 @@ export const GlobalStyle = createGlobalStyle`
       --h4: 29px;
       --h5: 27px;
       --h6: 25px;
-      --sectionMargin: 180px;
+      --sectionMargin: 70px;
     }
 
     @media (min-width: 1200px) {
@@ -79,10 +79,12 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--background);
+   
     color: #fff;
     overflow-x: hidden;
     font-size: var(--p);
+    background-color: #1e3256;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='Artboard-5' fill='%23ff1616' fill-opacity='0.10' fill-rule='nonzero'%3E%3Cpath d='M6 18h12V6H6v12zM4 4h16v16H4V4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 
   h1,

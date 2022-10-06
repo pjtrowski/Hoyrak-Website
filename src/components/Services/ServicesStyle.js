@@ -18,10 +18,6 @@ export const ServicesStyle = styled.section`
     object-position: center;
   }
 
-  .perks__image--overlay {
-    background-color: rgba(0, 0, 0, 0.65);
-  }
-
   .perks__divider {
     font-size: 25px;
     color: var(--primary);
